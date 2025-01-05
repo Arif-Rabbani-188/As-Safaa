@@ -3,16 +3,29 @@
     padding: 0px;
     box-sizing: border-box;
 }
-nav > ul{
+.navbar{
     background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+nav ul{
     display: flex;
 }
 
 nav ul li{
-    font-size: 4vmin;
+    border-radius: 2vmin;
+    font-size: 3vmin;
+    font-style: bold;
     list-style: none;
     margin-right: 10px;
     padding: 2vmin;
+}
+
+nav ul li:hover{
+    background-color: gray;
 }
 
 nav ul li a{
